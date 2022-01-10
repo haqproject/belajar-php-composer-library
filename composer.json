@@ -1,0 +1,19 @@
+{
+  "name": "haqproject/belajar-php-composer-library",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "authors": [
+    {
+      "name": "haqproject",
+      "email": "haqarinal2016@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HaqProject\\Belajar\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
